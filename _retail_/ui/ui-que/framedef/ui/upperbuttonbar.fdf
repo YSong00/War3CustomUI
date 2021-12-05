@@ -42,8 +42,8 @@ String "UpperButtonBarButtonHighlightTextTemplate" INHERITS "UpperButtonBarButto
 }
 
 Frame "SIMPLEFRAME" "UpperButtonBarFrame" {
-    Width 0.34,
-    Height 0.022,
+    Width 0,
+    Height 0,
 
     Frame "SIMPLEBUTTON" "UpperButtonBarQuestsButton" INHERITS "UpperButtonBarButtonTemplate" {
         SetPoint TOPLEFT,"UpperButtonBarFrame",TOPLEFT,0.002,0,

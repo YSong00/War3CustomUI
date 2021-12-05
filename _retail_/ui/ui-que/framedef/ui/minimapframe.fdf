@@ -28,25 +28,25 @@ Frame "SIMPLEFRAME" "MinimapButtonBar" {
 
     Frame "SIMPLEBUTTON" "MinimapSignalButton" INHERITS "MinimapButtonTemplate" {
 		DecorateFileNames,
-		SetPoint TOPLEFT, "MinimapButtonBar", BOTTOMLEFT, 0.069, 0.1065,
+		SetPoint TOPLEFT, "MinimapButtonBar", BOTTOMLEFT, 0.196, 0.105,
 		NormalTexture "MiniMapSignalButtonEnabled",
 		PushedTexture "MiniMapSignalButtonPushed",
 		DisabledTexture "MiniMapSignalButtonDisabled",		
     }
 	
     Frame "SIMPLEBUTTON" "MiniMapTerrainButton" INHERITS "MinimapButtonTemplate" {
-		SetPoint TOPLEFT, "MinimapButtonBar", BOTTOMLEFT, 0.069, 0.09,	
+		SetPoint TOPLEFT, "MinimapButtonBar", BOTTOMLEFT, 0.196, 0.085,
     }
 	
     Frame "SIMPLEBUTTON" "MiniMapAllyButton" INHERITS "MinimapButtonTemplate" {
-		SetPoint TOPLEFT, "MinimapButtonBar", BOTTOMLEFT, 0.069, 0.075,
+		SetPoint TOPLEFT, "MinimapButtonBar", BOTTOMLEFT, 0.196, 0.065,	
     }
 	
     Frame "SIMPLEBUTTON" "MiniMapCreepButton" INHERITS "MinimapButtonTemplate" {
-		SetPoint TOPLEFT, "MinimapButtonBar", BOTTOMLEFT, 0.069, 0.06,
+		SetPoint TOPLEFT, "MinimapButtonBar", BOTTOMLEFT, 0.196, 0.045,
     }
 	
     Frame "SIMPLEBUTTON" "FormationButton" INHERITS "MinimapButtonTemplate" {
-		SetPoint TOPLEFT, "MinimapButtonBar", BOTTOMLEFT, 0.069, 0.038,
+		SetPoint TOPLEFT, "MinimapButtonBar", BOTTOMLEFT, 0.196, 0.025,
     }
 }
