@@ -76,7 +76,7 @@ Frame "SIMPLEFRAME" "SimpleInventoryBar" {
 		Height 0.01125,    
         DecorateFileNames,
         SetPoint TOPLEFT, "SimpleInventoryBar", TOPRIGHT, 0.015, 0,
-        Text "INVENTORY",		
+        // Text "INVENTORY",		
 		FrameFont "MasterFont", 0.010, "",  
 		FontFlags "FIXEDSIZE",
 		FontColor 0.99 0.827 0.070 1.0,
