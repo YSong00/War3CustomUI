@@ -17,27 +17,33 @@ Frame "SIMPLEFRAME" "ResourceBarFrame" {
     Height 0.0218,
     
     Texture INHERITS "ResourceBarIconTemplate" {
-        Anchor TOPLEFT, -0.423, -0.495,
+        //Anchor TOPLEFT, -0.423, -0.495,
+        Anchor TOPRIGHT, -0.055, 0.0,
         File "GoldIcon",
     }
     String "ResourceBarGoldText" INHERITS "ResourceBarTextTemplate" {
-        Anchor TOPRIGHT, -0.716, -0.495,
+        //Anchor TOPRIGHT, -0.716, -0.495,
+        Anchor TOPRIGHT, -0.035, 0.0,
     }
 
     Texture INHERITS "ResourceBarIconTemplate" {
-        Anchor TOPLEFT, -0.423, -0.520,
+        //Anchor TOPLEFT, -0.423, -0.520,
+        Anchor TOPRIGHT, -0.005, 0.0,
         File "LumberIcon",
     }
     String "ResourceBarLumberText" INHERITS "ResourceBarTextTemplate" {
-        Anchor TOPRIGHT, -0.716, -0.520,
+        //Anchor TOPRIGHT, -0.716, -0.520,
+        Anchor TOPRIGHT, 0.015, 0.0,
     }
 
     Texture INHERITS "ResourceBarIconTemplate" {
-        Anchor TOPLEFT, -0.423, -0.545,
+        //Anchor TOPLEFT, -0.423, -0.545,
+        Anchor TOPRIGHT, 0.045, 0.0,
         File "SupplyIcon",
     }
     String "ResourceBarSupplyText" INHERITS "ResourceBarTextTemplate" {
-        Anchor TOPRIGHT, -0.716, -0.545,
+        //Anchor TOPRIGHT, -0.716, -0.545,
+        Anchor TOPRIGHT, 0.07, 0.0,
     }
 
     // String "NewText" INHERITS "ResourceBarTextTemplate" {
@@ -51,7 +57,8 @@ Frame "SIMPLEFRAME" "ResourceBarFrame" {
     //     File "UpkeepIcon",
     // }
     String "ResourceBarUpkeepText" {
-        Anchor TOPRIGHT,  -0.71, -0.575,
+        //Anchor TOPRIGHT,  -0.71, -0.575,
+        Anchor TOPRIGHT,  0.135, 0.0,
         FontJustificationH JUSTIFYCENTER,
         Font "MasterFont",0.009,
         Width 0.06,
