@@ -5,7 +5,7 @@ Texture "ResourceBarIconTemplate" {
 
 String "ResourceBarTextTemplate" {
     Font "MasterFont",0.008,
-    FontJustificationH JUSTIFYRIGHT,
+    FontJustificationH JUSTIFYLEFT,
     Height 0.01640625,
     Width 0.035,
     TextLength 8,
@@ -18,32 +18,32 @@ Frame "SIMPLEFRAME" "ResourceBarFrame" {
     
     Texture INHERITS "ResourceBarIconTemplate" {
         //Anchor TOPLEFT, -0.423, -0.495,
-        Anchor TOPRIGHT, -0.055, 0.0,
+        Anchor TOPRIGHT, -0.055, -0.001,
         File "GoldIcon",
     }
     String "ResourceBarGoldText" INHERITS "ResourceBarTextTemplate" {
         //Anchor TOPRIGHT, -0.716, -0.495,
-        Anchor TOPRIGHT, -0.035, 0.0,
+        Anchor TOPRIGHT, -0.02, 0.0,
     }
 
     Texture INHERITS "ResourceBarIconTemplate" {
         //Anchor TOPLEFT, -0.423, -0.520,
-        Anchor TOPRIGHT, -0.005, 0.0,
+        Anchor TOPRIGHT, -0.005, -0.00,
         File "LumberIcon",
     }
     String "ResourceBarLumberText" INHERITS "ResourceBarTextTemplate" {
         //Anchor TOPRIGHT, -0.716, -0.520,
-        Anchor TOPRIGHT, 0.015, 0.0,
+        Anchor TOPRIGHT, 0.03, 0.0,
     }
 
     Texture INHERITS "ResourceBarIconTemplate" {
         //Anchor TOPLEFT, -0.423, -0.545,
-        Anchor TOPRIGHT, 0.045, 0.0,
+        Anchor TOPRIGHT, 0.045, -0.001,
         File "SupplyIcon",
     }
     String "ResourceBarSupplyText" INHERITS "ResourceBarTextTemplate" {
         //Anchor TOPRIGHT, -0.716, -0.545,
-        Anchor TOPRIGHT, 0.07, 0.0,
+        Anchor TOPRIGHT, 0.08, 0.0,
     }
 
     // String "NewText" INHERITS "ResourceBarTextTemplate" {
